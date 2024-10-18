@@ -1,0 +1,3317 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_payroll_community
+# 	* l10n_tr_hr_payroll
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-17 11:47+0000\n"
+"PO-Revision-Date: 2024-10-17 16:40+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.actions.report,print_report_name:l10n_tr_hr_payroll.action_report_payslip
+msgid "('Payslip - %s' % (object.employee_id.name))"
+msgstr "(‘Maaş Bordrosu - %s’ % (object.employee_id.name))"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.actions.report,print_report_name:hr_payroll_community.hr_payslip_report_action
+#: model:ir.actions.report,print_report_name:l10n_tr_hr_payroll.payslip_details_report
+msgid "('Payslip Details - %s' % (object.employee_id.name))"
+msgstr "(‘Maaş Bordrosu Detayları - %s’ % (object.employee_id.name))"
+
+#. module: hr_payroll_community
+#: model:ir.actions.report,print_report_name:hr_payroll_community.hr_payslip_new_report_action
+msgid "('Payslip Report - %s' % (object.employee_id.name))"
+msgstr "(‘Maaş Bordrosu Raporu - %s’ % (object.employee_id.name))"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__state
+msgid ""
+"* When the payslip is created the status is 'Draft'\n"
+"                \n"
+"* If the payslip is under verification, \n"
+"                the status is 'Waiting'.\n"
+"                \n"
+"* If the payslip is confirmed then status is set to 'Done'.\n"
+"                \n"
+"* When user cancel payslip the status is 'Rejected'."
+msgstr ""
+"Maaş bordrosu oluşturulduğunda durumu ‘Taslak’tır.\n"
+"Eğer maaş bordrosu doğrulama aşamasındaysa, durumu ‘Beklemede’dir.\n"
+"Eğer maaş bordrosu onaylandıysa, durumu ‘Tamamlandı’ olarak ayarlanır.\n"
+"Kullanıcı maaş bordrosunu iptal ettiğinde durumu ‘Reddedildi’ olur."
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__incentive_code__0000
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__incentive_code__0000
+msgid "0000"
+msgstr "0000"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__incentive_code__04857
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__incentive_code__04857
+msgid "04857 (Pasif)"
+msgstr "04857 (Pasif)"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__incentive_code__05510
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__incentive_code__05510
+msgid "05510"
+msgstr "05510"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.incentives_05510
+msgid "05510 Incentives"
+msgstr "05510 Teşvikler"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__incentive_code__06111
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__incentive_code__06111
+msgid "06111"
+msgstr "06111"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.incentives_06111
+msgid "06111 Incentives"
+msgstr "06111 Teşvikler"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.incentives_06486
+msgid "06486 Incentives"
+msgstr "06486 Teşvikler"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__incentive_code__06645
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__incentive_code__06645
+msgid "06645"
+msgstr "06645"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.incentives_06645
+msgid "06645 Incentives"
+msgstr "06645 Teşvikler"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__first_degree_disabled_discount
+msgid "1. Degree Disabled Discount"
+msgstr "1. Derece Engelli İndirimi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_contract__disabled_degree__disabled_1
+msgid "1. Derece Engelli"
+msgstr "1. Derece Engelli"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "1.Degree Disabled Disc."
+msgstr "1. Derece Engelli İndirimi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__incentive_code__14857
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__incentive_code__14857
+msgid "14857"
+msgstr "14857"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.incentives_14857
+msgid "14857 Incentives"
+msgstr "14857 Teşvikler"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__incentive_code__16322
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__incentive_code__16322
+msgid "16322"
+msgstr "16322"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.incentives_16322
+msgid "16322 Incentives"
+msgstr "16322 Teşvikler"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__second_degree_disabled_discount
+msgid "2. Degree Disabled Discount"
+msgstr "2. Derece Engelli İndirimi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_contract__disabled_degree__disabled_2
+msgid "2. Derece Engelli"
+msgstr "2. Derece Engelli"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "2.Degree Disabled Disc."
+msgstr "2. Derece Engelli İndirimi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__incentive_code__25510
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__incentive_code__25510
+msgid "25510"
+msgstr "25510"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.incentives_25510
+msgid "25510 Incentives"
+msgstr "25510 Teşvikler"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__third_degree_disabled_discount
+msgid "3. Degree Disabled Discount"
+msgstr "3. Derece Engelli"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_contract__disabled_degree__disabled_3
+msgid "3. Derece Engelli"
+msgstr "3. Derece Engelli"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "3.Degree Disabled Disc."
+msgstr "3. Derece Engelli"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__incentive_code__66486
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__incentive_code__66486
+msgid "66486"
+msgstr "66486"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Payroll Rules</span>"
+msgstr "<span class=“o_form_label”>Maaş Kuralları</span>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_employees_view_form
+msgid ""
+"<span colspan=\"4\" nolabel=\"1\">This wizard will generate\n"
+"                        payslips for all selected employee(s) based on the\n"
+"                        dates\n"
+"                        and credit note specified on Payslips Run.\n"
+"                    </span>"
+msgstr ""
+"<span colspan=“4” nolabel=“1”>Bu sihirbaz, seçilen çalışan(lar) için belirli "
+"tarihler ve belirtilen kredi notuna göre maaş bordrolarını oluşturacaktır. </"
+"span>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_contract_view_form
+msgid "<span>/ month</span>"
+msgstr "<span>/ ay</span>"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid ""
+"<span>Gün Sayısı: 30</span>\n"
+"                                    |\n"
+"                                    <span>İzin Sayısı: 2</span>"
+msgstr ""
+"<span>Gün Sayısı: 30</span>\n"
+"                                    |\n"
+"                                    <span>İzin Sayısı: 2</span>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "<strong>Authorized signature</strong>"
+msgstr "<strong>Yetkili imza</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "<strong>Bank Account</strong>"
+msgstr "<strong>Banka Hesabı</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+msgid "<strong>Date From:</strong>"
+msgstr "<strong>Tarih Aralığı Başlangıcı:</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "<strong>Date From</strong>"
+msgstr "<strong>Tarih Aralığı Başlangıcı:</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+msgid "<strong>Date To:</strong>"
+msgstr "<strong>Tarih Aralığı Sonu:</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "<strong>Date To</strong>"
+msgstr "<strong>Tarih Aralığı Sonu:</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "<strong>Designation</strong>"
+msgstr "<strong>Pozisyon</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "<strong>Email</strong>"
+msgstr "<strong>E-posta</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "<strong>Identification No</strong>"
+msgstr "<strong>Kimlik No</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "<strong>Name</strong>"
+msgstr "<strong>İsim</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "<strong>Reference</strong>"
+msgstr "<strong>Referans</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+msgid "<strong>Register Name:</strong>"
+msgstr "<strong>Kayıt Adı:</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+msgid "<strong>Total</strong>"
+msgstr "<strong>Toplam</strong>"
+
+#. module: hr_payroll_community
+#: model_terms:ir.actions.act_window,help:hr_payroll_community.hr_contribution_register_action
+msgid ""
+"A contribution register is a third party involved in the\n"
+"                    salary\n"
+"                    payment of the employees. It can be the social security, "
+"the\n"
+"                    state or anyone that collect or inject money on payslips."
+msgstr ""
+"Bir katkı kaydı, çalışanların maaş ödemelerinde yer alan bir üçüncü "
+"şahıstır. Sosyal güvenlik, devlet veya bordrolara para toplayan ya da "
+"ekleyen herhangi biri olabilir."
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "AYLIK G.V."
+msgstr "Aylık Brüt Gelir"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "AYLIK G.V. MATRAHI"
+msgstr "Aylık Brüt Gelir Matrahı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_res_config_settings__module_account_accountant
+msgid "Account Accountant"
+msgstr "Hesap Muhasebecisi"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.res_config_settings_view_form
+msgid "Accounting"
+msgstr "Muhasebe"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Accounting Information"
+msgstr "Muhasebe Bilgisi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_needaction
+msgid "Action Needed"
+msgstr "Eylem Gerekli"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__active
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__active
+msgid "Active"
+msgstr "Aktif"
+
+#. module: hr_payroll_community
+#: model_terms:ir.actions.act_window,help:hr_payroll_community.hr_contribution_register_action
+msgid "Add a new contribution register"
+msgstr "Yeni bir katkı kaydı ekle"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Add an internal note..."
+msgstr "Dahili not ekle…"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.advance_deductions
+msgid "Advance Deductions"
+msgstr "Avans Kesintileri"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.after_incentives_income_tax_net
+msgid "After Incentives Income Tax"
+msgstr "Teşviklerden Sonra Gelir Vergisi"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.after_incentives_stamp_tax_base_net
+msgid "After Incentives Stamp Tax Base"
+msgstr "Teşviklerden Sonra Damga Vergisi Tabanı"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.hr_salary_rule_action
+msgid "All Children Rules"
+msgstr "Tüm Çocuk Kuralları"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule.category,name:hr_payroll_community.ALW
+msgid "Allowance"
+msgstr "Ödenek"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip_line__condition_select__none
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_salary_rule__condition_select__none
+msgid "Always True"
+msgstr "Her Zaman Doğru"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__amount
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__amount
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Amount"
+msgstr "Tutar"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__amount_select
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__amount_select
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_search
+msgid "Amount Type"
+msgstr "Tutar Türü"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_contract__schedule_pay__annually
+msgid "Annually"
+msgstr "Yıllık"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__appears_on_payslip
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__appears_on_payslip
+msgid "Appears on Payslip"
+msgstr "Maaş Bordrosunda Görünür"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,help:l10n_tr_hr_payroll.field_hr_payslip_line__condition_python
+#: model:ir.model.fields,help:l10n_tr_hr_payroll.field_hr_salary_rule__condition_python
+msgid ""
+"Applied this rule for calculation if condition is true. You can specify "
+"condition like basic > 1000."
+msgstr ""
+"Bu kural, koşul doğruysa hesaplama için uygulanır. Koşulu, örneğin temel > "
+"1000 gibi belirtebilirsiniz."
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__social_security_status__intern
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__social_security_status__intern
+msgid "Apprentices and Trainee Students"
+msgstr "Çıraklar ve Stajyer Öğrenciler"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Asıl Ücret"
+msgstr "Asıl Ücret"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_attachment_count
+msgid "Attachment Count"
+msgstr "Ek Sayısı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.attendance_allowance
+msgid "Attendance Allowance"
+msgstr "Katılım Ödeneği"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Avans"
+msgstr "Avans"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "BORDRO RAPORU"
+msgstr "BORDRO RAPORU"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule.category,name:hr_payroll_community.BASIC
+msgid "Basic"
+msgstr "Temel"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule,name:hr_payroll_community.hr_rule_basic
+msgid "Basic Salary"
+msgstr "Temel Maaş"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Bayram Mesai"
+msgstr "Bayram Mesai"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_res_config_settings__module_l10n_be_hr_payroll
+msgid "Belgium Payroll"
+msgstr "Belçika Bordrosu"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_contract__schedule_pay__bi-monthly
+msgid "Bi-monthly"
+msgstr "İki Aylık"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_contract__schedule_pay__bi-weekly
+msgid "Bi-weekly"
+msgstr "İki Haftalık"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.birth_allowance
+msgid "Birth Allowance"
+msgstr "Doğum Yardımı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.bonus_allowance
+msgid "Bonus Allowance"
+msgstr "Prim Ödeneği"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Brüt Gelirler Toplamı"
+msgstr "Brüt Gelirler Toplamı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Brüt Ücret"
+msgstr "Brüt Ücret"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Brüt***"
+msgstr "Brüt***"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_view_form
+msgid "Calculations"
+msgstr "Hesaplamalar"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.payslip_lines_contribution_register_view_form
+msgid "Cancel"
+msgstr "İptal Et"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Cancel Payslip"
+msgstr "Maaş Bordrosunu İptal Et"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__category_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__category_id
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_search
+msgid "Category"
+msgstr "Kategori"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.child_allowance
+msgid "Child Allowance"
+msgstr "Çocuk Yardımı"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+msgid "Child Rules"
+msgstr "Çocuk Kuralları"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_payslip_line__child_ids
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_salary_rule__child_ids
+msgid "Child Salary Rule"
+msgstr "Çocuk Maaş Kuralı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__children_ids
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__children_ids
+msgid "Children"
+msgstr "Çocuklar"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+msgid "Children Definition"
+msgstr "Çocuk Tanımı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__company_id
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__company_id
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule_category__company_id
+msgid "Choose Company"
+msgstr "Şirket Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payroll_structure__company_id
+msgid "Choose Company for Payroll Structure"
+msgstr "Bordro Yapısı İçin Şirket Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contribution_register__company_id
+msgid "Choose Company for Register"
+msgstr "Kayıt İçin Şirket Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__company_id
+msgid "Choose Company for line"
+msgstr "Satır İçin Şirket Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__condition_select
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__condition_select
+msgid "Choose Condition for Salary Rule"
+msgstr "Maaş Kuralı İçin Koşul Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__contract_id
+msgid "Choose Contract for Payslip"
+msgstr "Maaş Bordrosu İçin Sözleşme Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__contract_id
+msgid "Choose Contract for line"
+msgstr "Satır İçin Sözleşme Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__employee_id
+msgid "Choose Employee for Payslip"
+msgstr "Maaş Bordrosu İçin Çalışan Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__employee_id
+msgid "Choose Employee for line"
+msgstr "Satır İçin Çalışan Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__input_ids
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__input_ids
+msgid "Choose Hr Rule Input"
+msgstr "İK Kural Girdisi Seç"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,help:l10n_tr_hr_payroll.field_hr_payslip_line__parent_rule_id
+#: model:ir.model.fields,help:l10n_tr_hr_payroll.field_hr_salary_rule__parent_rule_id
+msgid "Choose Hr Salary Rule"
+msgstr "İK Maaş Kuralı Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule_category__children_ids
+msgid "Choose Hr Salary Rule Category"
+msgstr "İK Maaş Kuralı Kategorisi Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contribution_register__partner_id
+msgid "Choose Partner for Register"
+msgstr "Kayıt İçin Ortak Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract__struct_id
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payroll_structure__children_ids
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payroll_structure__parent_id
+msgid "Choose Payroll Structure"
+msgstr "Bordro Yapısı Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__input_line_ids
+msgid "Choose Payslip Input"
+msgstr "Maaş Bordrosu Girdisi Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__payslip_run_id
+msgid "Choose Payslip Run"
+msgstr "Maaş Bordrosu Koşusu Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_employee__slip_ids
+msgid "Choose Payslip for Employee"
+msgstr "Çalışan İçin Bordro Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__line_ids
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__slip_id
+msgid "Choose Payslip for line"
+msgstr "Satır İçin Bordro Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_worked_days__payslip_id
+msgid "Choose Payslip for worked days"
+msgstr "Çalışılan Günler İçin Bordro Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contribution_register__register_line_ids
+msgid "Choose Payslip line"
+msgstr "Bordro Satırı Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_run__slip_ids
+msgid "Choose Payslips for Batches"
+msgstr "Toplu Bordroları Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payroll_structure__rule_ids
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_rule_input__input_id
+msgid "Choose Salary Rule"
+msgstr "Maaş Kuralını Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__category_id
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__category_id
+msgid "Choose Salary Rule Category"
+msgstr "Maaş Kural Kategorisini Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__salary_rule_id
+msgid "Choose Salary Rule for line"
+msgstr "Satır İçin Maaş Kuralını Seç"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.res_config_settings_view_form
+msgid "Choose a Payroll Localization"
+msgstr "Bordro Yerelleştirmesi Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_employees__employee_ids
+msgid "Choose employee for Payslip"
+msgstr "Bordro İçin Çalışan Seç"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip_run__state__close
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_view_form
+msgid "Close"
+msgstr "Kapat"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__code
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_leave_type__code
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__code
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__code
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_rule_input__code
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__code
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "Code"
+msgstr "Kod"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract_advantage_template__code
+msgid "Code for Employee's Advantage on Contract"
+msgstr "Çalışanın Sözleşmesindeki Avantaj Kodu"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payroll_structure__code
+msgid "Code for Payroll Structure"
+msgstr "Bordro Yapısı Kodu"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_leave_type__code
+msgid "Code for Time Off Type"
+msgstr "İzin Türü Kodu"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payroll_structure_view_kanban
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_kanban
+msgid "Code:"
+msgstr "Kod:"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+msgid "Companies"
+msgstr "Şirketler"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__company_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__company_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__company_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__company_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__company_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__company_id
+msgid "Company"
+msgstr "Şirket"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule.category,name:hr_payroll_community.COMP
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+msgid "Company Contribution"
+msgstr "Şirket Katkısı"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+msgid "Computation"
+msgstr "Hesaplama"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Compute Sheet"
+msgstr "Çizelgeyi Hesapla"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__condition_select
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__condition_select
+msgid "Condition Based on"
+msgstr "Şarta Dayalı"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+msgid "Conditions"
+msgstr "Koşullar"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model,name:l10n_tr_hr_payroll.model_res_config_settings
+msgid "Config Settings"
+msgstr "Yapılandırma Ayarları"
+
+#. module: hr_payroll_community
+#: model:ir.ui.menu,name:hr_payroll_community.menu_hr_payroll_community_configuration
+msgid "Configuration"
+msgstr "Yapılandırma"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Confirm"
+msgstr "Onayla"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__contract_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__contract_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__contract_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__contract_id
+msgid "Contract"
+msgstr "Sözleşme"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_contribution_register_view_form
+msgid "Contribution"
+msgstr "Katkı"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model,name:hr_payroll_community.model_hr_contribution_register
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_payslip_line__register_id
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_salary_rule__register_id
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_search
+msgid "Contribution Register"
+msgstr "Katkı Kaydı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contribution_register__name
+msgid "Contribution Register Name"
+msgstr "Katkı Kaydı Adı"
+
+#. module: hr_payroll_community
+#: model:ir.actions.report,name:hr_payroll_community.contribution_register_action
+msgid "Contribution Register PDF"
+msgstr "Katkı Kaydı PDF"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.payslip_lines_contribution_register_view_form
+msgid "Contribution Register's Payslip Lines"
+msgstr "Katkı Kaydının Bordro Satırları"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.hr_contribution_register_action
+#: model:ir.ui.menu,name:hr_payroll_community.menu_action_hr_contribution_register
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_contribution_register_search
+msgid "Contribution Registers"
+msgstr "Katkı Kayıtları"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_employees__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_rule_input__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_payslip_lines_contribution_register__create_uid
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__create_uid
+msgid "Created by"
+msgstr "Oluşturan"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_employees__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_rule_input__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__create_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_payslip_lines_contribution_register__create_date
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__create_date
+msgid "Created on"
+msgstr "Oluşturulma Tarihi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__credit_note
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__credit_note
+msgid "Credit Note"
+msgstr "Alacak Notu"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.cumulative_minimum_wage_income_base_deductions
+msgid "Cumulative Minimum Wage Income Base"
+msgstr "Kümülatif Asgari Ücret Gelir Tabanı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.cumulative_minimum_wage_tax_base_gross
+msgid "Cumulative Minimum Wage Tax Base"
+msgstr "Kümülatif Asgari Ücret Vergi Tabanı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.cumulative_tax_base_gross
+msgid "Cumulative Tax Base"
+msgstr "Kümülatif Vergi Tabanı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Current Gross Min. Wage Amount"
+msgstr "Mevcut Brüt Asgari Ücret Miktarı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__gross_minimum_wage
+msgid "Current Gross Minimum Wage"
+msgstr "Mevcut Brüt Asgari Ücret"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Current Net Min. Wage Amount"
+msgstr "Mevcut Net Asgari Ücret Miktarı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__net_minimum_wage
+msgid "Current Net Minimum Wage"
+msgstr "Mevcut Net Asgari Ücret"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "D.V."
+msgstr "Gelir Vergisi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "D.V. MATRAHI"
+msgstr "Gelir Vergisi Matrahı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "D.V. NET"
+msgstr "Gelir Vergisi Neti"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "D.V. İSTİSNASI"
+msgstr "Gelir Vergisi İstisnası"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract__da
+msgid "DA"
+msgstr "Fark Tazminatı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Damga Vergisi Teşvikleri"
+msgstr "Damga Vergisi Teşvikleri"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__date_from
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__date_from
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__date_start
+#: model:ir.model.fields,field_description:hr_payroll_community.field_payslip_lines_contribution_register__date_from
+msgid "Date From"
+msgstr "Başlangıç Tarihi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__date_to
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__date_to
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__date_end
+#: model:ir.model.fields,field_description:hr_payroll_community.field_payslip_lines_contribution_register__date_to
+msgid "Date To"
+msgstr "Bitiş Tarihi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Days"
+msgstr "Günler"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule,name:hr_payroll_community.hr_rule_da
+#: model:hr.salary.rule.category,name:hr_payroll_community.DA
+msgid "Dearness Allowance"
+msgstr "Fiyat Artışı Tazminatı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract__da
+msgid "Dearness allowance"
+msgstr "Fiyat Artışı Tazminatı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.death_allowance
+msgid "Death Allowance"
+msgstr "Ölüm Yardımı"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule.category,name:hr_payroll_community.DED
+msgid "Deduction"
+msgstr "Kesinti"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Deductions"
+msgstr "Kesintiler"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__default_value
+msgid "Default Value"
+msgstr "Varsayılan Değer"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract_advantage_template__default_value
+msgid "Default value for this advantage"
+msgstr "Bu Avantaj İçin Varsayılan Değer"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract__schedule_pay
+msgid "Defines the frequency of the wage payment."
+msgstr "Ücret Ödeme Sıklığını Tanımlar"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__struct_id
+msgid ""
+"Defines the rules that have to be applied to this payslip, accordingly to "
+"the contract chosen. If you let empty the field contract, this field isn't "
+"mandatory anymore and thus the rules applied will be all the rules set on "
+"the structure of all contracts of the employee valid for the chosen period"
+msgstr "Seçilen sözleşmeye göre bu bordroya uygulanacak kuralları tanımlar…"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__note
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__note
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__note
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_rule_input__name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__note
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__note
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_contribution_register_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+msgid "Description"
+msgstr "Açıklama"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payroll_structure__note
+msgid "Description for Payroll Structure"
+msgstr "Bordro Yapısı İçin Açıklama"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__note
+msgid "Description for Payslip"
+msgstr "Bordro İçin Açıklama"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule_category__note
+msgid "Description for Salary Category"
+msgstr "Maaş Kategorisi İçin Açıklama"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__note
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__note
+msgid "Description for Salary Rule"
+msgstr "Maaş Kuralı İçin Açıklama"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_rule_input__name
+msgid "Description for Salary Rule Input"
+msgstr "Maaş Kuralı Girişi İçin Açıklama"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_worked_days__name
+msgid "Description for Worked Days"
+msgstr "Çalışılan Günler İçin Açıklama"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Details By Salary Rule Category"
+msgstr "Maaş Kural Kategorisine Göre Detaylar"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__details_by_salary_rule_category_ids
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "Details by Salary Rule Category"
+msgstr "Maaş Kural Kategorisine Göre Detaylar"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__details_by_salary_rule_category_ids
+msgid "Details from the salary rule category"
+msgstr "Engelli Durumu"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.disabled_amount_allowance
+msgid "Disabled Amount"
+msgstr "Engelli Miktarı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_contract__disabled_degree
+msgid "Disabled Status"
+msgstr "Engelli Durumu"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__discharge_date
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__discharge_date
+msgid "Discharge Date"
+msgstr "Taburcu Tarihi"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_employees__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_rule_input__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__display_name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_payslip_lines_contribution_register__display_name
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__display_name
+msgid "Display Name"
+msgstr "Görünen Ad"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Diğer"
+msgstr "Diğer"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip__state__done
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__military_service_status__done
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__military_service_status__done
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+msgid "Done"
+msgstr "Tamamlandı"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_search
+msgid "Done Payslip Batches"
+msgstr "Tamamlanan Bordro Grupları"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+msgid "Done Slip"
+msgstr "Tamamlanan Bordro"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip__state__draft
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip_run__state__draft
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+msgid "Draft"
+msgstr "Taslak"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_search
+msgid "Draft Payslip Batches"
+msgstr "Taslak Bordro Grupları"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+msgid "Draft Slip"
+msgstr "Taslak Bordro"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "DİĞER"
+msgstr "DİĞER"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Earnings"
+msgstr "Kazançlar"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Eksik Gün"
+msgstr "Eksik Gün"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model,name:l10n_tr_hr_payroll.model_hr_employee
+#: model:ir.model,name:l10n_tr_hr_payroll.model_hr_employee_public
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__employee_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__employee_id
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__social_security_status__employee
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__social_security_status__employee
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Employee"
+msgstr "Çalışan"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model,name:l10n_tr_hr_payroll.model_hr_contract
+msgid "Employee Contract"
+msgstr "Çalışan Sözleşmesi"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payroll_structure_view_form
+msgid "Employee Function"
+msgstr "Çalışan Görevi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model,name:l10n_tr_hr_payroll.model_hr_payslip
+msgid "Employee Payroll"
+msgstr "Çalışan Bordrosu"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.hr_payslip_action
+#: model:ir.ui.menu,name:hr_payroll_community.menu_department_tree
+msgid "Employee Payslips"
+msgstr "Çalışan Bordroları"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model,name:l10n_tr_hr_payroll.model_hr_employee_search
+msgid "Employee Search"
+msgstr "Çalışan Arama"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_contract_advantage_template
+msgid "Employee's Advantage on Contract"
+msgstr "Çalışanın Sözleşmedeki Avantajı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,help:l10n_tr_hr_payroll.field_hr_contract__wage
+msgid "Employee's monthly gross wage."
+msgstr "Personelin aylık brüt ücreti."
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract__resource_calendar_id
+msgid "Employee's working schedule."
+msgstr "Çalışanın Çalışma Programı"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_employees__employee_ids
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__employee_ids
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_employees_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+msgid "Employees"
+msgstr "Çalışanlar"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Employer Costs"
+msgstr "İşveren Maliyetleri"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__social_security_status__employer
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__social_security_status__employer
+msgid "Employer or Representative"
+msgstr "İşveren veya Temsilci"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__date_to
+msgid "End date for Payslip"
+msgstr "Bordro İçin Bitiş Tarihi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_run__date_end
+msgid "End date for batch"
+msgstr "Grup İçin Bitiş Tarihi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_input__date_to
+#: model:ir.model.fields,help:hr_payroll_community.field_payslip_lines_contribution_register__date_to
+msgid "Ending Date for Payslip Lines"
+msgstr "Bordro Satırları İçin Bitiş Tarihi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_contract__disabled_degree__not_disabled
+msgid "Engelsiz"
+msgstr "Engelsiz"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__name
+msgid "Enter Payslip Name"
+msgstr "Bordro Adını Girin"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__name
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__name
+msgid "Enter Salary Rule Name"
+msgstr "Maaş Kuralı Adını Girin"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,help:l10n_tr_hr_payroll.field_hr_payslip_line__register_id
+#: model:ir.model.fields,help:l10n_tr_hr_payroll.field_hr_salary_rule__register_id
+msgid "Eventual third party involved in the salary payment of the employees."
+msgstr "Maaş ödemesine dahil olan üçüncü şahıs…"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.execution_deductions
+msgid "Execution Deductions"
+msgstr "Uygulama Kesintileri"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__military_service_status__exempt
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__military_service_status__exempt
+msgid "Exempt"
+msgstr "Muaf"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.extra_shift_basic
+msgid "Extra Shift"
+msgstr "Ek Vardiya"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Extra Shift Coefficient"
+msgstr "Ek Vardiya Katsayısı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__extra_shift_rate
+msgid "Extra Shift Rate"
+msgstr "Ek Vardiya Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.family_allowance
+msgid "Family Allowance"
+msgstr "Aile Yardımı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__family_allowance_rate
+msgid "Family Allowance Rate"
+msgstr "Aile Yardımı Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Family Alw. Coefficient"
+msgstr "Aile Yardımı Katsayısı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Fazla Mesai"
+msgstr "Fazla Mesai"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__fifth_part_tax_ratio
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Fifth Tax Bracket Rate"
+msgstr "Beşinci Vergi Dilimi Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__first_part_tax_ratio
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "First Tax Bracket Rate"
+msgstr " Birinci Vergi Dilimi Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__first_part_tax
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "First Tax Ceiling Price"
+msgstr "Birinci Vergi Tavan Fiyatı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__amount_fix
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__amount_fix
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip_line__amount_select__fix
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_salary_rule__amount_select__fix
+msgid "Fixed Amount"
+msgstr "Sabit Tutar"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_follower_ids
+msgid "Followers"
+msgstr "Takipçiler"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Takipçiler (Ortaklar)"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.food_allowance
+msgid "Food Allowance"
+msgstr "Yemek Yardımı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__food_allowance_rate
+msgid "Food Allowance Rate"
+msgstr "Yemek Yardımı Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Food Alw. Coefficient"
+msgstr "Yemek Yardımı Katsayısı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__amount_percentage
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__amount_percentage
+msgid "For example, enter 50.0 to apply a percentage of 50%"
+msgstr "Örneğin, %50 uygulamak için 50.0 girin"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__fourth_part_tax_ratio
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Fourth Tax Bracket Rate"
+msgstr "Dördüncü Vergi Dilimi Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__fourth_part_tax
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Fourth Tax Ceiling Price"
+msgstr "Dördüncü Vergi Tavan Fiyatı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_res_config_settings__module_l10n_fr_hr_payroll
+msgid "French Payroll"
+msgstr "Fransız Bordrosu"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.fuel_allowance
+msgid "Fuel Allowance"
+msgstr "Yakıt Yardımı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "G.V. NET"
+msgstr "Gelir Vergisi Neti"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "G.V. İSTİSNASI"
+msgstr "Gelir Vergisi İstisnası"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "GELİRLER RAPORU"
+msgstr "GELİRLER RAPORU"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Gece Mesai"
+msgstr "Gece Mesai"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Gelir Türü"
+msgstr "Gelir Türü"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Gelir Vergisi Teşvikleri"
+msgstr "Gelir Vergisi Teşvikleri"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+msgid "General"
+msgstr "Genel"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_employees_view_form
+msgid "Generate"
+msgstr "Oluştur"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.hr_payslip_by_employees_action
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_view_form
+msgid "Generate Payslips"
+msgstr "Bordroları Oluştur"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.view_employee_report
+msgid "Generate Report"
+msgstr "Rapor Oluştur"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.view_employee_report
+msgid "Generate Summary Report"
+msgstr "Özet Rapor Oluştur"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_payslip_employees
+msgid "Generate payslips for all selected employees"
+msgstr "Seçilen tüm çalışanlar için bordro oluştur"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:hr_payroll_community.hr_rule_taxable
+#: model:hr.salary.rule.category,name:hr_payroll_community.GROSS
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_contract__type_salary__gross
+msgid "Gross"
+msgstr "Brüt"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.amount_gross
+msgid "Gross Amount"
+msgstr "Brüt Tutar"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.gross_earning_gross
+msgid "Gross Earning"
+msgstr "Brüt Kazanç"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_search
+msgid "Group By"
+msgstr "Gruplandır"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract__hra
+msgid "HRA"
+msgstr "Ev Kirası Yardımı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__has_message
+msgid "Has Message"
+msgstr "Mesaj Var"
+
+#. module: hr_payroll_community
+#: model:ir.module.category,description:hr_payroll_community.module_category_hr_payroll_community
+msgid "Helps you manage your payrolls."
+msgstr "Bordrolarınızı yönetmenize yardımcı olur"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.holiday_allowance
+msgid "Holiday Allowance"
+msgstr "Tatil Yardımı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Holiday Coefficient"
+msgstr "Tatil Katsayısı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.holiday_shift_basic
+msgid "Holiday Shift"
+msgstr "Tatil Vardiyası"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__holiday_shift_rate
+msgid "Holiday Shift Rate"
+msgstr "Tatil Vardiya Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.hourly_gross_basic
+msgid "Hourly Gross"
+msgstr "Saatlik Brüt"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Hours"
+msgstr "Saatler"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule,name:hr_payroll_community.hr_rule_hra
+#: model:hr.salary.rule.category,name:hr_payroll_community.HRA
+msgid "House Rent Allowance"
+msgstr "Ev Kirası Yardımı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract__hra
+msgid "House rent allowance."
+msgstr "Ev kirası yardımı."
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule_category__code
+msgid "Hr Salary Rule Category Code"
+msgstr "İK Maaş Kuralı Kategori Kodu"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule_category__name
+msgid "Hr Salary Rule Category Name"
+msgstr "İK Maaş Kuralı Kategori Adı"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_employees__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_rule_input__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_payslip_lines_contribution_register__id
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__id
+msgid "ID"
+msgstr "Kimlik (ID)"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "İşaretlenirse, yeni mesajlar dikkatinizi gerektirir."
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__message_has_error
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "İşaretlenirse, bazı mesajlarda teslim hatası vardır."
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_run__credit_note
+msgid ""
+"If its checked, indicates that allpayslips generated from here are "
+"refundpayslips."
+msgstr ""
+"İşaretlenirse, buradan oluşturulan tüm bordroların iade bordroları olduğunu "
+"gösterir."
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__active
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__active
+msgid ""
+"If the active field is set to false, it will allow you to hide the "
+"salaryrule without removing it."
+msgstr ""
+"Aktif alan “false” olarak ayarlandıysa, maaş kuralını kaldırmadan "
+"gizlemenize olanak tanır."
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule.category,name:l10n_tr_hr_payroll.INC
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Incentives"
+msgstr "Teşvikler"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__incentive_end_date
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__incentive_end_date
+msgid "Incentives End Date"
+msgstr "Teşviklerin Bitiş Tarihi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__incentive_code
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__incentive_code
+msgid "Incentives Number"
+msgstr "Teşvik Numarası"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__incentive_start_date
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__incentive_start_date
+msgid "Incentives Start Date"
+msgstr "Teşviklerin Başlangıç Tarihi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__incentive_days
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__incentive_days
+msgid "Incentives Time (days)"
+msgstr "Teşvik Süresi (gün)"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_res_config_settings__module_l10n_in_hr_payroll
+msgid "Indian Payroll"
+msgstr "Hindistan Bordrosu"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__credit_note
+msgid "Indicates this payslip has a refund of another"
+msgstr "Bu bordronun başka bir bordronun iadesi olduğunu belirtir"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.individual_pension_net
+msgid "Individual Pension"
+msgstr "Bireysel Emeklilik"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Individual Pension Coefficient"
+msgstr "Bireysel Emeklilik Katsayısı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__individual_pension_rate
+msgid "Individual Pension Rate"
+msgstr "Bireysel Emeklilik Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.payroll_hr_employee_view_form
+msgid "Information"
+msgstr "Bilgi"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+msgid "Input Data"
+msgstr "Girdi Verileri"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__input_ids
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__input_ids
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+msgid "Inputs"
+msgstr "Girdiler"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__note
+msgid "Internal Note"
+msgstr "Dahili Not"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_res_config_settings__module_account_accountant
+msgid "Is Account Accountant"
+msgstr "Hesap Muhasebecisi mi?"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_res_config_settings__module_l10n_be_hr_payroll
+msgid "Is Belgium Payroll"
+msgstr "Belçika Bordrosu mu?"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_is_follower
+msgid "Is Follower"
+msgstr "Takipçi mi?"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_res_config_settings__module_l10n_fr_hr_payroll
+msgid "Is French Payroll"
+msgstr "Fransız Bordrosu mu?"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_res_config_settings__module_l10n_in_hr_payroll
+msgid "Is Indian Payroll"
+msgstr "Hindistan Bordrosu mu?"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__paid
+msgid "Is Payment Order"
+msgstr "Ödeme Emri mi?"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_view_kanban
+msgid "Is a Blocking Reason?"
+msgstr "Engelleme Nedeni mi?"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__quantity
+msgid ""
+"It is used in computation for percentageand fixed amount. For e.g. A rule "
+"for MealVoucher having fixed amount of 1€ per worked day can have its "
+"quantitydefined in expression like worked_days.WORK100.number_of_days."
+msgstr ""
+"Yüzde ve sabit tutar hesaplamalarında kullanılır. Örneğin, çalışılan gün "
+"başına 1€ sabit tutarı olan Yemek Çeki için bir kural, worked_days.WORK100."
+"number_of_days ifadesinde tanımlanabilir."
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_input__amount
+msgid ""
+"It is used in computation.For e.g. A rule for sales having 1% commission of "
+"basic salary forper product can defined in expression like result = inputs."
+"SALEURO.amount * contract.wage*0.01."
+msgstr ""
+"Hesaplamada kullanılır. Örneğin, ürün başına temel maaşın %1 komisyonu olan "
+"bir satış kuralı, result = inputs.SALEURO.amount * contract.wage * 0.01 "
+"şeklinde tanımlanabilir."
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Kesinti Türü"
+msgstr "Kesinti Türü"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Kesintiler Toplamı"
+msgstr "Kesintiler Toplamı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Kimlik No"
+msgstr "Kimlik No"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Kişi Sayısı"
+msgstr "Kişi Sayısı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Kıdem Tazminatı"
+msgstr "Kıdem Tazminatı"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_employees__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_rule_input__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_community.field_payslip_lines_contribution_register__write_uid
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__write_uid
+msgid "Last Updated by"
+msgstr "Son Güncelleyen"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_employees__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_rule_input__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__write_date
+#: model:ir.model.fields,field_description:hr_payroll_community.field_payslip_lines_contribution_register__write_date
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__write_date
+msgid "Last Updated on"
+msgstr "Son Güncelleme Tarihi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule_category__parent_id
+msgid ""
+"Linking a salary category to its parentis used only for the reporting "
+"purpose."
+msgstr ""
+"Maaş kategorisinin üst kategorisi ile ilişkilendirilmesi yalnızca raporlama "
+"amacıyla kullanılır"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__lower_bound
+msgid "Lower Bound"
+msgstr "Alt Sınır"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract_advantage_template__lower_bound
+msgid "Lower bound authorized by the employerfor this advantage"
+msgstr "İşveren tarafından bu avantaj için yetkilendirilen alt sınır"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "MESAİLER"
+msgstr "MESAİLER"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__paid
+msgid "Made Payment Order ? "
+msgstr "Ödeme Emri Verildi mi?"
+
+#. module: hr_payroll_community
+#: model:res.groups,name:hr_payroll_community.group_hr_payroll_community_manager
+msgid "Manager"
+msgstr "Yönetici"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.marriage_allowance
+msgid "Marriage Allowance"
+msgstr "Evlilik Yardımı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Matrah"
+msgstr "Matrah"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__condition_range_max
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__condition_range_max
+msgid "Maximum Range"
+msgstr "Maksimum Aralık"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule,name:hr_payroll_community.hr_rule_meal
+#: model:hr.salary.rule.category,name:hr_payroll_community.Meal
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract__meal_allowance
+msgid "Meal Allowance"
+msgstr "Yemek Yardımı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract__meal_allowance
+msgid "Meal allowance"
+msgstr "Yemek Yardımı"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule,name:hr_payroll_community.hr_rule_medical
+#: model:hr.salary.rule.category,name:hr_payroll_community.Medical
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract__medical_allowance
+msgid "Medical Allowance"
+msgstr "Sağlık Yardımı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract__medical_allowance
+msgid "Medical allowance"
+msgstr "Sağlık Yardımı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Mesai Tipi"
+msgstr "Mesai Tipi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_has_error
+msgid "Message Delivery error"
+msgstr "Mesaj Teslim Hatası"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_ids
+msgid "Messages"
+msgstr "Mesajlar"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.payroll_hr_employee_view_form
+msgid "Military Service"
+msgstr "Askerlik Hizmeti"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__military_service_status
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__military_service_status
+msgid "Military Service Status"
+msgstr "Askerlik Durumu"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__condition_range_min
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__condition_range_min
+msgid "Minimum Range"
+msgstr "Minimum Aralık"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_contract__is_minimum_wage
+msgid "Minimum Wage"
+msgstr "Asgari Ücret"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.minimum_wage_tax_base_gross
+msgid "Minimum Wage Tax Base"
+msgstr "Asgari Ücret Vergi Tabanı"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Miscellaneous"
+msgstr "Çeşitli"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.missing_day_basic
+msgid "Missing Day"
+msgstr "Eksik Gün"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__month
+msgid "Month"
+msgstr "Ay"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_contract__schedule_pay__monthly
+msgid "Monthly"
+msgstr "Aylık"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_contract_view_form
+msgid "Monthly Advantages in Cash"
+msgstr "Aylık Nakit Avantajları"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.monthly_income_tax_net
+msgid "Monthly Income Tax"
+msgstr "Aylık Gelir Vergisi"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.monthly_minimum_wage_tax_base_gross
+msgid "Monthly Minimum Wage Tax Base"
+msgstr "Aylık Asgari Ücret Vergi Tabanı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.monthly_tax_base_gross
+msgid "Monthly Tax Base"
+msgstr "Aylık Vergi Tabanı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__name
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "Name"
+msgstr "İsim"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract_advantage_template__name
+msgid "Name for Employee's Advantage on Contract"
+msgstr "Sözleşmedeki Çalışan Avantajı İçin İsim"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payroll_structure__name
+msgid "Name for Payroll Structure"
+msgstr "Bordro Yapısı İçin İsim"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_run__name
+msgid "Name for Payslip Batches"
+msgstr "Maaş Bordrosu Partileri İçin İsim"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.national_holiday_basic
+msgid "National Holiday"
+msgstr "Resmi Tatil"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:hr.salary.rule.category,name:hr_payroll_community.NET
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_contract__type_salary__net
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Net"
+msgstr "Net"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.amount_net
+msgid "Net Amount"
+msgstr "Net Tutar"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Net Aylık Ücret"
+msgstr "Net Aylık Ücret"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Net Diğer Gelirler"
+msgstr "Net Diğer Gelirler"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Net Ele Geçen"
+msgstr "Net Ele Geçen"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Net Gelirler Toplamı"
+msgstr "Net Gelirler Toplamı"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule,name:hr_payroll_community.hr_rule_net
+msgid "Net Salary"
+msgstr "Net Maaş"
+
+#. module: l10n_tr_hr_payroll
+#. odoo-python
+#: code:addons/l10n_tr_hr_payroll/models/hr_payslip.py:0
+#, python-format
+msgid ""
+"No running contract found for the employee: %s or no contract in the given "
+"period"
+msgstr ""
+"Çalışan için hiçbir sözleşme bulunamadı: %s veya belirtilen tarihlerde "
+"sözleşme yok"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Normal Earnings Total:"
+msgstr "Normal Kazançların Toplamı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__military_service_status__not_done
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__military_service_status__not_done
+msgid "Not Done"
+msgstr "Tamamlanmadı"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_category_view_form
+msgid "Notes"
+msgstr "Notlar"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.notice_allowance
+msgid "Notice Allowance"
+msgstr "İhbar Ödeneği"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_needaction_counter
+msgid "Number of Actions"
+msgstr "İşlem Sayısı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__number_of_days
+msgid "Number of Days"
+msgstr "Gün Sayısı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__number_of_hours
+msgid "Number of Hours"
+msgstr "Saat Sayısı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_worked_days__number_of_days
+msgid "Number of days worked"
+msgstr "Çalışılan Gün Sayısı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_has_error_counter
+msgid "Number of errors"
+msgstr "Hata Sayısı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_worked_days__number_of_hours
+msgid "Number of hours worked"
+msgstr "Çalışılan Saat Sayısı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "İşlem Gerektiren Mesaj Sayısı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Teslim Hatası Olan Mesaj Sayısı"
+
+#. module: hr_payroll_community
+#: model:res.groups,name:hr_payroll_community.group_hr_payroll_community_user
+msgid "Officer"
+msgstr "Memur"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule,name:hr_payroll_community.hr_rule_other
+#: model:hr.salary.rule.category,name:hr_payroll_community.Other
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract__other_allowance
+msgid "Other Allowance"
+msgstr "Diğer Ödenek"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Other Inputs"
+msgstr "Diğer Girdiler"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract__other_allowance
+msgid "Other allowances"
+msgstr "Diğer Ödenekler"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__social_security_status__others
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__social_security_status__others
+msgid "Others"
+msgstr "Diğerleri"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.overtime_shift_basic
+msgid "Overtime Amount"
+msgstr "Fazla Mesai Tutarı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Overtime Coefficient"
+msgstr "Fazla Mesai Katsayısı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__overtime_shift_rate
+msgid "Overtime Shift Rate"
+msgstr "Fazla Mesai Vardiya Oranı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__parent_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule_category__parent_id
+msgid "Parent"
+msgstr "Ana"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_payslip_line__parent_rule_id
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_salary_rule__parent_rule_id
+msgid "Parent Salary Rule"
+msgstr "Ana Maaş Kuralı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__partner_id
+msgid "Partner"
+msgstr "Ortak"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__payslip_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__slip_id
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__payslip_id
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "Pay Slip"
+msgstr "Maaş Fişi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.actions.report,name:l10n_tr_hr_payroll.action_report_payslip
+msgid "PaySlip"
+msgstr "Maaş Bordrosu"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+msgid "PaySlip Batch"
+msgstr "Maaş Bordrosu Partisi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.actions.report,name:l10n_tr_hr_payroll.payslip_details_report
+msgid "PaySlip Details"
+msgstr "Maaş Bordrosu Detayları"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.payslip_lines_contribution_register_action
+msgid "PaySlip Lines"
+msgstr "Maaş Bordrosu Satırları"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+msgid "PaySlip Lines by Contribution Register"
+msgstr "Katkı Kayıtlarına Göre Maaş Bordrosu Satırları"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+msgid "PaySlip Name"
+msgstr "Maaş Bordrosu Adı"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.action_open_payroll
+#: model:ir.module.category,name:hr_payroll_community.module_category_hr_payroll_community
+#: model:ir.ui.menu,name:hr_payroll_community.menu_hr_payroll_community_root
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.res_config_settings_view_form
+msgid "Payroll"
+msgstr "Bordro"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.edit_holiday_status_form
+msgid "Payroll Code"
+msgstr "Bordro Kodu"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_report_hr_payroll_community_report_contributionregister
+msgid "Payroll Contribution Register Report"
+msgstr "Bordro Katkı Kayıt Raporu"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.res_config_settings_view_form
+msgid "Payroll Entries"
+msgstr "Bordro Girişleri"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Payroll Settings Türkiye"
+msgstr "Bordro Ayarları Türkiye"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payroll_structure_search
+msgid "Payroll Structures"
+msgstr "Bordro Yapıları"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.res_config_settings_view_form
+msgid "Payroll rules that apply to your country"
+msgstr "Ülkenize Uygulanan Bordro Kuralları"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_input__payslip_id
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Payslip"
+msgstr "Maaş Bordrosu"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_payslip_run
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__payslip_run_id
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_search
+msgid "Payslip Batches"
+msgstr "Maaş Bordrosu Partileri"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.action_hr_payslip_line
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__payslip_count
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Payslip Computation Details"
+msgstr "Maaş Bordrosu Hesaplama Detayları"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_employee__payslip_count
+msgid "Payslip Count"
+msgstr "Maaş Bordrosu Sayısı"
+
+#. module: hr_payroll_community
+#: model:ir.actions.report,name:hr_payroll_community.hr_payslip_report_action
+#: model:ir.model,name:hr_payroll_community.model_report_hr_payroll_community_report_payslipdetails
+msgid "Payslip Details Report"
+msgstr "Maaş Bordrosu Detay Raporu"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_payslip_input
+msgid "Payslip Input"
+msgstr "Maaş Bordrosu Girdisi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__input_line_ids
+msgid "Payslip Inputs"
+msgstr "Maaş Bordrosu Girdileri"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_payslip_line
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Payslip Line"
+msgstr "Maaş Bordrosu Satırı"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.hr_payslip_line_action
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__line_ids
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Payslip Lines"
+msgstr "Maaş Bordrosu Satırları"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "Payslip Lines by Contribution Register"
+msgstr "Katkı Kayıtlarına Göre Maaş Bordrosu Satırları"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_payslip_lines_contribution_register
+msgid "Payslip Lines by Contribution Registers"
+msgstr "Katkı Kayıtlarına Göre Maaş Bordrosu Satırları"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__name
+msgid "Payslip Name"
+msgstr "Maaş Bordrosu Adı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_payslip__payslip_period
+msgid "Payslip Period"
+msgstr "Maaş Bordrosu Dönemi"
+
+#. module: hr_payroll_community
+#: model:ir.actions.report,name:hr_payroll_community.hr_payslip_new_report_action
+msgid "Payslip Report"
+msgstr "Maaş Bordrosu Raporu"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_payslip_worked_days
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__worked_days_line_ids
+msgid "Payslip Worked Days"
+msgstr "Maaş Bordrosu Çalışılan Günler"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__worked_days_line_ids
+msgid "Payslip worked days for line"
+msgstr "Satır için maaş bordrosunda çalışılan günler"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.action_hr_payslip
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_employee__slip_ids
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__slip_ids
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_tree
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.view_employee_form
+msgid "Payslips"
+msgstr "Maaş Bordroları"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.hr_payslip_run_action
+#: model:ir.ui.menu,name:hr_payroll_community.menu_hr_payslip_run
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_view_tree
+msgid "Payslips Batches"
+msgstr "Maaş Bordrosu Partileri"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_employees_view_form
+msgid "Payslips by Employees"
+msgstr "Çalışanlara Göre Maaş Bordroları"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__amount_percentage
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__amount_percentage
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip_line__amount_select__percentage
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_salary_rule__amount_select__percentage
+msgid "Percentage (%)"
+msgstr "Yüzde (%)"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__amount_percentage_base
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__amount_percentage_base
+msgid "Percentage based on"
+msgstr "Şuna Göre Yüzde"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Period"
+msgstr "Dönem"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.res_config_settings_view_form
+msgid "Post payroll slips in accounting"
+msgstr "Bordro fişlerini muhasebeye kaydet"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__military_service_status__postponement
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__military_service_status__postponement
+msgid "Postponement"
+msgstr "Erteleme"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__postponement_end_date
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__postponement_end_date
+msgid "Postponement End Date"
+msgstr "Erteleme Bitiş Tarihi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_contract__previous_cumulative_tax_base
+msgid "Previous Cumulative Tax Base"
+msgstr "Önceki Kümülatif Vergi Tabanı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.prim_allowance
+msgid "Prim Allowance"
+msgstr "Prim Ödeneği"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.payslip_lines_contribution_register_view_form
+msgid "Print"
+msgstr "Yazdır"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.hr_payslip_view_form_inherit
+msgid "Print Payslip"
+msgstr "Maaş Bordrosu Yazdır"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.actions.act_window,name:l10n_tr_hr_payroll.action_print_report
+#: model:ir.actions.report,name:l10n_tr_hr_payroll.hr_employee_summary_report
+#: model:ir.ui.menu,name:l10n_tr_hr_payroll.menu_report_summary
+msgid "Print Summary Report"
+msgstr "Özet Raporu Yazdır"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_payslip_line__amount_python_compute
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_salary_rule__amount_python_compute
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip_line__amount_select__code
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_salary_rule__amount_select__code
+msgid "Python Code"
+msgstr "Python Kodu"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_payslip_line__condition_python
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_salary_rule__condition_python
+msgid "Python Condition"
+msgstr "Python Koşulu"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip_line__condition_select__python
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_salary_rule__condition_select__python
+msgid "Python Expression"
+msgstr "Python İfadesi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__quantity
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__quantity
+msgid "Quantity"
+msgstr "Miktar"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+msgid "Quantity/Rate"
+msgstr "Miktar/Oran"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "Quantity/rate"
+msgstr "Miktar/Oran"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_contract__schedule_pay__quarterly
+msgid "Quarterly"
+msgstr "Üç Aylık"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip_line__condition_select__range
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_salary_rule__condition_select__range
+msgid "Range"
+msgstr "Aralık"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__condition_range
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__condition_range
+msgid "Range Based on"
+msgstr "Şuna Göre Aralık"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__rate
+msgid "Rate (%)"
+msgstr "Oran (%)"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__rating_ids
+msgid "Ratings"
+msgstr "Puanlar"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.hr_payslip_view_form_inherit
+msgid "Reduce Days to 30"
+msgstr "Günleri 30’a Düşür"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__code
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__number
+msgid "Reference"
+msgstr "Referans"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__number
+msgid "References for Payslip"
+msgstr "Maaş Bordrosu Referansları"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Refund"
+msgstr "İade"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contribution_register__register_line_ids
+msgid "Register Line"
+msgstr "Kayıt Satırı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.regular_shift_basic
+msgid "Regular Shift"
+msgstr "Normal Vardiya"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip__state__cancel
+msgid "Rejected"
+msgstr "Reddedildi"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_resource_mixin
+msgid "Resource Mixin"
+msgstr "Kaynak Mixin"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.road_allowance
+msgid "Road Allowance"
+msgstr "Yol Ödeneği"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__salary_rule_id
+msgid "Rule"
+msgstr "Kural"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS Teslim Hatası"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.ssi_base_gross
+msgid "SSI Base"
+msgstr "SSI Tabanı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__ssi_ceiling_amount
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "SSI Ceiling Amount"
+msgstr "SSI Tavan Miktarı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.ssi_employer_prim_rate_basic
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__ssi_employer_prim_rate
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "SSI Employer Prim Rate"
+msgstr "SSI İşveren Prim Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__ssi_employer_retired_rate
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "SSI Employer Retired Rate"
+msgstr "SSI İşveren Emekli Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.ssi_employer_share_incentives_deductions
+msgid "SSI Employer Share Incentives"
+msgstr "SSI İşveren Payı Teşvikleri"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "SSI Unempl. Employer Prim Rate"
+msgstr "SSI İşsizlik İşveren Prim Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "SSI Unempl. Worker Prim Rate"
+msgstr "SSI İşsizlik Çalışan Prim Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__ssi_unemployment_employer_rate
+msgid "SSI Unemployment Employer Rate"
+msgstr "SSI İşsizlik İşveren Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.ssi_unemployment_worker_prim_rate_deductions
+msgid "SSI Unemployment Worker Prim Rate"
+msgstr "SSI İşsizlik Çalışan Prim Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__ssi_unemployment_worker_rate
+msgid "SSI Unemployment Worker Rate"
+msgstr "SSI İşsizlik Çalışan Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.ssi_worker_prim_rate_deductions
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__ssi_worker_prim_rate
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "SSI Worker Prim Rate"
+msgstr "SSI Çalışan Prim Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__ssi_worker_retired_rate
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "SSI Worker Retired Rate"
+msgstr "SSI Çalışan Emekli Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__benefit_06111
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__benefit_06111
+msgid "STake advantage of the 06111"
+msgstr "06111’den Yararlanın"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Saat"
+msgstr "Saat"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_category_view_form
+msgid "Salary Categories"
+msgstr "Maaş Kategorileri"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Salary Computation"
+msgstr "Maaş Hesaplaması"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model,name:l10n_tr_hr_payroll.model_hr_salary_rule
+msgid "Salary Rule"
+msgstr "Maaş Kuralı"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.hr_salary_rule_category_action
+#: model:ir.ui.menu,name:hr_payroll_community.menu_hr_salary_rule_category
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_category_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_category_view_tree
+msgid "Salary Rule Categories"
+msgstr "Maaş Kuralı Kategorileri"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_salary_rule_category
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+msgid "Salary Rule Category"
+msgstr "Maaş Kuralı Kategorisi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__code
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__code
+msgid "Salary Rule Code"
+msgstr "Maaş Kuralı Kodu"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_rule_input
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_rule_input__input_id
+msgid "Salary Rule Input"
+msgstr "Maaş Kuralı Girdisi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__name
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__name
+msgid "Salary Rule Name"
+msgstr "Maaş Kuralı Adı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payroll_structure__rule_ids
+#: model:ir.ui.menu,name:hr_payroll_community.menu_action_hr_salary_rule_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payroll_structure_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_search
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_view_tree
+msgid "Salary Rules"
+msgstr "Maaş Kuralları"
+
+#. module: l10n_tr_hr_payroll
+#. odoo-python
+#: code:addons/l10n_tr_hr_payroll/models/hr_payslip.py:0
+#, python-format
+msgid "Salary Slip of %s for %s"
+msgstr "%s için %s Maaş Bordrosu"
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_payroll_structure
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract__struct_id
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payroll_structure_view_tree
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_view_tree
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Salary Structure"
+msgstr "Maaş Yapısı"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.hr_payroll_structure_action
+#: model:ir.ui.menu,name:hr_payroll_community.menu_hr_payroll_structure_view
+msgid "Salary Structures"
+msgstr "Maaş Yapıları"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_contract__type_salary
+msgid "Salary Type"
+msgstr "Maaş Türü"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Satış Primi"
+msgstr "Satış Primi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Sayı"
+msgstr "Sayı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract__schedule_pay
+msgid "Scheduled Pay"
+msgstr "Planlanan Ödeme"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__search_lines
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__search_lines
+msgid "Search Lines"
+msgstr "Satırları Ara"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_search
+msgid "Search Payslip Batches"
+msgstr "Maaş Bordrosu Partileri Ara"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_line_search
+msgid "Search Payslip Lines"
+msgstr "Maaş Bordrosu Satırları Ara"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+msgid "Search Payslips"
+msgstr "Maaş Bordrosu Ara"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_salary_rule_search
+msgid "Search Salary Rule"
+msgstr "Maaş Kuralı Ara"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__second_part_tax_ratio
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Second Tax Bracket Rate"
+msgstr "İkinci Vergi Dilimi Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__second_part_tax
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Second Tax Ceiling Price"
+msgstr "İkinci Vergi Tavan Fiyatı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_contract__schedule_pay__semi-annually
+msgid "Semi-annually"
+msgstr "Yarı Yıllık"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_input__sequence
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__sequence
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_worked_days__sequence
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_salary_rule__sequence
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_input__sequence
+msgid "Sequence"
+msgstr "Sıra"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_worked_days__sequence
+msgid "Sequence for worked days"
+msgstr "Çalışılan günler için sıra"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__amount
+msgid "Set Amount for line"
+msgstr "Satır için tutar belirle"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contribution_register__note
+msgid "Set Description for Register"
+msgstr "Kayıt için Açıklama Belirle"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_employee__payslip_count
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__payslip_count
+msgid "Set Payslip Count"
+msgstr "Maaş Bordrosu Sayısını Ayarla"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__quantity
+msgid "Set Qty for line"
+msgstr "Satır için miktar belirle"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__rate
+msgid "Set Rate for payslip"
+msgstr "Maaş bordrosu için oran belirle"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__amount_fix
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__amount_fix
+msgid "Set a Fixed Amount"
+msgstr "Sabit Tutar Ayarla"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_run_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Set to Draft"
+msgstr "Taslak Olarak Ayarla"
+
+#. module: hr_payroll_community
+#: model:ir.actions.act_window,name:hr_payroll_community.res_config_settings_action
+#: model:ir.ui.menu,name:hr_payroll_community.menu_hr_payroll_global_settings
+msgid "Settings"
+msgstr "Ayarlar"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.severance_allowance
+msgid "Severance Allowance"
+msgstr "Kıdem Tazminatı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Sgk Teşvikleri"
+msgstr "Sgk Teşvikleri"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.payroll_hr_employee_view_form
+msgid "Social Security"
+msgstr "Sosyal Güvenlik"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__social_security_status
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__social_security_status
+msgid "Social Security Status"
+msgstr "Sosyal Güvenlik Durumu"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.ssi_unemployment_employer_prim_rate_gross
+msgid "Ssc Unemployment Employer Prim Rate"
+msgstr "SSC İşsizlik İşveren Prim Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.stamp_tax_deductions
+msgid "Stamp Tax"
+msgstr "Damga Vergisi"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.stamp_tax_base_basic
+msgid "Stamp Tax Base"
+msgstr "Damga Vergisi Tabanı"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.stamp_tax_incentives_deductions
+msgid "Stamp Tax Incentives"
+msgstr "Damga Vergisi Teşvikleri"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__stump_tax_rate
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Stamp Tax Rate"
+msgstr "Damga Vergisi Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__start_date_of_work
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__start_date_of_work
+msgid "Start Date Of Work"
+msgstr "İş Başlangıç Tarihi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__date_from
+msgid "Start date for Payslip"
+msgstr "Maaş Bordrosu Başlangıç Tarihi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_input__date_from
+#: model:ir.model.fields,help:hr_payroll_community.field_payslip_lines_contribution_register__date_from
+msgid "Starting Date for Payslip Lines"
+msgstr "Maaş Bordrosu Satırları Başlangıç Tarihi"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_search
+msgid "States"
+msgstr "Durumlar"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__state
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_run__state
+msgid "Status"
+msgstr "Durum"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_run__state
+msgid "Status for Payslip Batches"
+msgstr "Maaş Bordrosu Partileri Durumu"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__struct_id
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_payslip_line__struct_id
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_salary_rule__struct_id
+msgid "Structure"
+msgstr "Yapı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__date_to
+msgid "Summary End Date"
+msgstr "Özet Bitiş Tarihi"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model,name:l10n_tr_hr_payroll.model_report_l10n_tr_hr_payroll_report_summary_templates
+msgid "Summary Report"
+msgstr "Özet Rapor"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_search__date_from
+msgid "Summary Start Date"
+msgstr "Özet Başlangıç Tarihi"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.syndicate_deductions
+msgid "Syndicate Deductions"
+msgstr "Sendika Kesintileri"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Sözleşme Başlangıç Tarihi"
+msgstr "Sözleşme Başlangıç Tarihi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "TEŞVİKLER"
+msgstr "TEŞVİKLER"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee__benefit_05510
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_employee_public__benefit_05510
+msgid "Take advantage of the 05510"
+msgstr "05510’dan yararlanın"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Tatil Gün"
+msgstr "Tatil Gün"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Tax Deductions"
+msgstr "Vergi Kesintileri"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.tax_incentives_deductions
+msgid "Tax Incentives"
+msgstr "Vergi Teşvikleri"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Taşıt/Yol(Nakit)"
+msgstr "Taşıt/Yol(Nakit)"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Teşvik Yok"
+msgstr "Teşvik Yok"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__code
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__code
+msgid ""
+"The code of salary rules can be used as referencein computation of other "
+"rules. In that case, it is case sensitive."
+msgstr ""
+"Maaş kurallarının kodu diğer kuralların hesaplanmasında referans olarak "
+"kullanılabilir. Bu durumda, büyük-küçük harf duyarlıdır."
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_input__code
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_worked_days__code
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_rule_input__code
+msgid "The code that can be used in the salary rules"
+msgstr "Maaş kurallarında kullanılabilecek kod"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__amount_select
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__amount_select
+msgid "The computation method for the rule amount."
+msgstr "Kural tutarının hesaplama yöntemi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_input__contract_id
+msgid "The contract for which applied this input"
+msgstr "Bu girdi için uygulanan sözleşme"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_worked_days__contract_id
+msgid "The contract for which appliedthis input"
+msgstr "Bu kural için uygulanan azami miktar"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__condition_range_max
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__condition_range_max
+msgid "The maximum amount, applied for this rule."
+msgstr "Bu kural için uygulanan asgari miktar"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__condition_range_min
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__condition_range_min
+msgid "The minimum amount, applied for this rule."
+msgstr "Bu kural için uygulanan asgari miktar"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__third_part_tax_ratio
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Third Tax Bracket Rate"
+msgstr "Üçüncü Vergi Dilimi Oranı"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_res_config_settings__third_part_tax
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.res_config_settings_view_form
+msgid "Third Tax Ceiling Price"
+msgstr "Üçüncü Vergi Tavan Fiyatı"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__condition_range
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__condition_range
+msgid ""
+"This will be used to compute the % fields values; in general it is on basic, "
+"but you can also use categories code fields in lowercase as a variable names "
+"(hra, ma, lta, etc.) and the variable basic."
+msgstr ""
+"Bu, % alanlarının değerlerini hesaplamak için kullanılacaktır; genelde temel "
+"maaş üzerinden, ancak kategori kod alanlarını küçük harflerle değişken "
+"isimleri (hra, ma, lta vb.) olarak da kullanabilirsiniz ve değişken “basic” "
+"olacaktır."
+
+#. module: hr_payroll_community
+#: model:ir.model,name:hr_payroll_community.model_hr_leave_type
+msgid "Time Off Type"
+msgstr "İzin Türü"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Toplam"
+msgstr "Toplam"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Toplam Mesai"
+msgstr "Toplam Mesai"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Toplam Sgk Primi"
+msgstr "Toplam Sgk Primi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Toplam İşsizlik Primi"
+msgstr "Toplam İşsizlik Primi"
+
+#. modules: hr_payroll_community, l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip_line__total
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_contributionregister
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslip
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.report_payslipdetails
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Total"
+msgstr "Toplam"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.total_deductions
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Total Deductions"
+msgstr "Toplam Kesintiler"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Total Employer Costs"
+msgstr "İşverenin Toplam Maliyetleri"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Total Incentives"
+msgstr "Toplam Teşvikler"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Total Working Days"
+msgstr "Toplam Çalışma Günleri"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__total
+msgid "Total amount for Payslip"
+msgstr "Maaş bordrosu için toplam tutar"
+
+#. module: hr_payroll_community
+#: model:hr.salary.rule,name:hr_payroll_community.hr_rule_travel
+#: model:hr.salary.rule.category,name:hr_payroll_community.Travel
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract__travel_allowance
+msgid "Travel Allowance"
+msgstr "Seyahat Ödeneği"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract__travel_allowance
+msgid "Travel allowance"
+msgstr "Seyahat ödeneği"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Tutar"
+msgstr "Tutar"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Tür"
+msgstr "Tür"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract_advantage_template__upper_bound
+msgid "Upper Bound"
+msgstr "Üst Sınır"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_contract_advantage_template__upper_bound
+msgid "Upper bound authorized by the employerfor this advantage"
+msgstr "İşveren tarafından bu avantaj için yetkilendirilen üst sınır"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__sequence
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__sequence
+msgid "Use to arrange calculation sequence"
+msgstr "Hesaplama sırasını düzenlemek için kullanılır"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__appears_on_payslip
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__appears_on_payslip
+msgid "Used to display the salaryrule on payslip."
+msgstr "Maaş bordrosunda maaş kuralını göstermek için kullanılır"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields,field_description:l10n_tr_hr_payroll.field_hr_contract__wage
+msgid "Wage"
+msgstr "Ücret"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_payslip__state__verify
+msgid "Waiting"
+msgstr "Bekleniyor"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_payslip__website_message_ids
+msgid "Website Messages"
+msgstr "Web Sitesi Mesajları"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip__website_message_ids
+msgid "Website communication history"
+msgstr "Web sitesi iletişim geçmişi"
+
+#. module: l10n_tr_hr_payroll
+#: model:hr.salary.rule,name:l10n_tr_hr_payroll.weekend_holiday_basic
+msgid "Weekend Holiday"
+msgstr "Hafta Sonu Tatili"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields.selection,name:hr_payroll_community.selection__hr_contract__schedule_pay__weekly
+msgid "Weekly"
+msgstr "Haftalık"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__social_security_status__657-c-worker
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__social_security_status__657-c-worker
+msgid "Within the Scope of 657 SK(4/C)"
+msgstr "657 SK’nın (4/C) Kapsamında"
+
+#. module: l10n_tr_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee__social_security_status__657-b-worker
+#: model:ir.model.fields.selection,name:l10n_tr_hr_payroll.selection__hr_employee_public__social_security_status__657-b-worker
+msgid "Within the Scope of 657 SK(4/b)"
+msgstr "657 SK’nın (4/b) Kapsamında"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Worked Day"
+msgstr "Çalışma Günü"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Worked Days"
+msgstr "Çalışılan Günler"
+
+#. module: hr_payroll_community
+#: model_terms:ir.ui.view,arch_db:hr_payroll_community.hr_payslip_view_form
+msgid "Worked Days & Inputs"
+msgstr "Çalışılan Günler ve Girdiler"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,field_description:hr_payroll_community.field_hr_contract__resource_calendar_id
+msgid "Working Schedule"
+msgstr "Çalışma Takvimi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Zorunlu BES"
+msgstr "Zorunlu Bireysel Emeklilik Sistemi"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_line__amount_percentage_base
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_salary_rule__amount_percentage_base
+msgid "result will be affected to a variable"
+msgstr "sonuç bir değişkene etkilenecek"
+
+#. module: hr_payroll_community
+#: model:ir.model.fields,help:hr_payroll_community.field_hr_payslip_run__date_start
+msgid "start date for batch"
+msgstr "Parti için başlama tarihi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Çalışan Maliyeti"
+msgstr "Çalışan Maliyeti"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Çalışan Net Ödeme"
+msgstr "Çalışan Net Ödeme"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Çalışan İsmi"
+msgstr "Çalışan İsmi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "Çalışılan Gün"
+msgstr "Çalışılan Gün"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "ÖDEMELER"
+msgstr "ÖDEMELER"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Ödeme Dönemi"
+msgstr "Ödeme Dönemi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Ödeme Zamanı"
+msgstr "Ödeme Zamanı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_overridden_payslip_tmpl
+msgid "Ünvanı"
+msgstr "Ünvanı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İcra"
+msgstr "İcra"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İhbar Tazminatı"
+msgstr "İhbar Tazminatı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İkramiye"
+msgstr "İkramiye"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İsim"
+msgstr "İsim"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İzin Günü"
+msgstr "İzin Günü"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İŞÇİ MALİYETLERİ"
+msgstr "İŞÇİ MALİYETLERİ"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İşci Sgk Primi"
+msgstr "İşci Sgk Primi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İşsizlik İşveren Primi"
+msgstr "İşsizlik İşveren Primi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İşsizlik İşçi Primi"
+msgstr "İşsizlik İşçi Primi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İşveren Sgk Primi"
+msgstr "İşveren Sgk Primi"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İşveren Toplam Sgk"
+msgstr "İşveren Toplam Sgk"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İşçi Kesinti Toplamı"
+msgstr "İşçi Kesinti Toplamı"
+
+#. module: l10n_tr_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_tr_hr_payroll.report_summary_templates
+msgid "İşçi Maliyeti"
+msgstr "İşçi Maliyeti"
